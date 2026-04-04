@@ -14,7 +14,7 @@ name = "agent" # do not change
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_LLM = "gpt-4o", AGENT_TEMPERATURE = "0.0", LOGURU_LEVEL = "${LOGURU_LEVEL}" }
 
 [config]
-# CAR-bench assessment parameters
+# CAR-bench assessment parameters (Firally submission)
 num_trials = 3                # Number of trials per task
 task_split = "test"  # "train" or "test"
 tasks_base_num_tasks = -1 # First N tasks in type/split, -1 for all.
